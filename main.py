@@ -14,7 +14,7 @@ templates = Jinja2Templates(directory="templates")
 
 # Użytkownicy - tymczasowo na sztywno
 users = {
-    "admin": "haslo123"
+    "ADMIN": "W92738376jy6m085"
 }
 
 def get_current_user(request: Request):
